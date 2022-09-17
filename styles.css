@@ -7,21 +7,38 @@ h1, h2, p {
 }
 
 h1 {
-
+    font-family: "Rochester", "sans-serif";
+    font-size: 5.5em;
+    margin: 0;
 }
 
 h2 {
+    font-style: italic;
+    margin-top: 0;
+    font-weight: 10;
+}
 
+.underline {
+    text-decoration: underline;
+}
+
+.bold {
+    font-weight: bolder;
 }
 
 span.left-heading {
+    font-size: large;
+    font-weight: bold;
+}
+
+div+.left-align {
     font-size: large;
 }
 
 .left-align {
     text-align: left !important;
     position: absolute;
-    left: 30%;
+    left: 33.5%;
 }
 
 .large-text {
@@ -31,4 +48,12 @@ span.left-heading {
 .signature {
     position: absolute;
     left: 40%;
+    font-size: 2.5em;
+    margin: 0;
+    font-style: italic;
+}
+
+p {
+    font-size: large;
+    margin-top: 0;
 }
