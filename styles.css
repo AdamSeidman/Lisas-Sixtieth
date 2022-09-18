@@ -45,6 +45,10 @@ div+.left-align {
     font-size: xx-large;
 }
 
+.medium-text {
+    font-size: x-large;
+}
+
 .signature {
     position: absolute;
     left: 40%;
