@@ -36,9 +36,7 @@ div+.left-align {
 }
 
 .left-align {
-    text-align: left !important;
-    position: absolute;
-    left: 33.5%;
+    text-align: left;
 }
 
 .large-text {
@@ -60,4 +58,11 @@ div+.left-align {
 p {
     font-size: large;
     margin-top: 0;
+}
+
+@media only screen and (min-width: 900px) {
+    .left-align {
+        position: absolute;
+        left: 33.5%;
+    }
 }
