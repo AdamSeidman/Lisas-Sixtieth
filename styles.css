@@ -1,5 +1,5 @@
 body {
-    background-color: #D6FFE9;/*8DFFC2;*/
+    background-color: #D6FFE9;
 }
 
 h1, h2, p {
@@ -64,9 +64,5 @@ p {
     .left-align {
         position: absolute;
         left: 33.5%;
-    }
-
-    body { 
-        background-color: #D6FFE9;
     }
 }
